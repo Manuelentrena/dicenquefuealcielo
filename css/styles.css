@@ -342,6 +342,13 @@ p {
   max-width: 500px;
 }
 
+@media (max-width: 768px) {
+  #unicorn {
+    max-width: none;
+    height: 300px;
+  }
+}
+
 .container__form {
   display: flex;
   align-items: flex-end;
