@@ -468,7 +468,6 @@ p {
 @media (max-width: 768px) {
   .name__autora {
     text-align: center;
-    margin-bottom: 50px;
   }
 }
 
@@ -539,4 +538,66 @@ p {
 
 .puntos_venta {
   color: #00d2ff !important;
+}
+
+/* VIDEO YOUTUBE */
+
+.container__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.video__title {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .video__title {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+.video {
+  position: relative;
+  margin: 50px;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .video {
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    margin: 50px 0px;
+  }
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* FACEBOOk */
+
+.facebook__autora a {
+  text-decoration: none;
+  color: #00d2ff;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .facebook__autora {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
