@@ -536,3 +536,7 @@ p {
   z-index: 3;
   margin-top: 50px;
 }
+
+.puntos_venta {
+  color: #00d2ff !important;
+}
