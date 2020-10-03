@@ -544,6 +544,16 @@ p {
   color: #f15675 !important;
 }
 
+.video_autora {
+  margin: 0;
+  padding: 0;
+}
+
+.foto_video {
+  width: 100%;
+  height: 100%;
+}
+
 /* VIDEO YOUTUBE */
 
 .container__video {
