@@ -244,7 +244,7 @@ p {
   display: flex;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 768px) {
   .container__principal {
     flex-direction: column;
     padding-top: 40px;
